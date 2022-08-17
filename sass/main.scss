@@ -1,4 +1,7 @@
 @import './utils/vars';
+@import './base/reset';
+@import './components/container';
 
-@import './heder';
-@import './hero';
+@import './components/logo';
+@import './layouts/heder';
+@import './layouts/hero';

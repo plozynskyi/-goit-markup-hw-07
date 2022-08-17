@@ -1,0 +1,38 @@
+/* --------------------------ЛОГО-------------------------- */
+
+.logo-header {
+  padding: 24px 0 25px 0;
+  color: var(--logo-color-text);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  transition: var(--transition-color);
+}
+
+.logo-colorized {
+  color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  transition: var(--transition-color);
+}
+
+.logo-header:hover .logo-colorized,
+.logo-header:focus .logo-colorized,
+.logo-footer:hover .logo-colorized,
+.logo-footer:focus .logo-colorized {
+  color: var(--logo-accent-color-tomato);
+  outline: transparent;
+}
+
+.logo-header:hover,
+.logo-header:focus,
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--logo-accent-color-tomato);
+  outline: transparent;
+}
