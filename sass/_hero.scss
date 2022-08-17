@@ -1,0 +1,55 @@
+.hero-bg-img {
+  max-width: 1600px;
+  max-height: 600px;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 91, 187, 0.7), rgba(255, 213, 0, 0.7)),
+    url(../images/studio/hero/background_hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--hero-color-bg);
+}
+.section-hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.section-hero-title {
+  width: 694px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  color: var(--white-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.section-hero-button {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px 32px;
+  min-width: 200px;
+  align-items: center;
+  color: var(--button-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+  transition: var(--transition-background-color);
+}
+
+.section-hero-button:hover,
+.section-hero-button:focus {
+  background-color: var(--button-color-accent);
+  font-family: inherit;
+}
