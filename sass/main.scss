@@ -1,7 +1,5 @@
-@import './utils/vars';
-@import './base/reset';
-@import './components/container';
+@import 'base/base';
+@import 'utils/utils';
 
-@import './components/logo';
-@import './layouts/heder';
-@import './layouts/hero';
+@import 'components/components';
+@import 'layouts/layouts';
