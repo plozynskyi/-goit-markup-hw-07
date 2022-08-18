@@ -27,29 +27,3 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-
-.section-hero-button {
-  display: inline-block;
-  margin: 0 auto;
-  padding: 10px 32px;
-  min-width: 200px;
-  align-items: center;
-  color: var(--button-color);
-  background-color: var(--accent-color);
-  cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: none;
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  font-family: inherit;
-  transition: var(--transition-background-color);
-}
-
-.section-hero-button:hover,
-.section-hero-button:focus {
-  background-color: var(--button-color-accent);
-  font-family: inherit;
-}
