@@ -1,3 +1,9 @@
+.section-hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
 .hero-bg-img {
   max-width: 1600px;
   max-height: 600px;
@@ -8,11 +14,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--hero-color-bg);
-}
-.section-hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  text-align: center;
 }
 
 .section-hero-title {

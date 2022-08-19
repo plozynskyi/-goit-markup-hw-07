@@ -1,85 +1,83 @@
 .section-hero-button {
   display: flex;
+  align-items: center;
   justify-content: center;
-
   margin-left: auto;
   margin-right: auto;
   padding: 10px 32px;
   min-width: 200px;
-  align-items: center;
   color: var(--button-color);
   background-color: var(--accent-color);
   cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: none;
   border-radius: 4px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  font-family: inherit;
   transition: var(--transition-background-color);
 }
 
 .section-hero-button:hover,
 .section-hero-button:focus {
   background-color: var(--button-color-accent);
-  font-family: inherit;
+  outline: transparent;
 }
 
 .modal-button {
   display: flex;
+  align-items: center;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 32px;
   min-width: 200px;
-  align-items: center;
   color: var(--button-color);
   background-color: var(--accent-color);
   cursor: pointer;
-  border: none;
   border-radius: 4px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  font-family: inherit;
-  outline: transparent;
   transition: var(--transition-background-color);
 }
 
 .modal-button:hover,
 .modal-button:focus {
   background-color: var(--button-color-accent);
+  outline: transparent;
 }
 
 .online-button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   margin-left: auto;
   margin-right: auto;
   padding: 10px 28px;
   min-width: 200px;
   color: var(--button-color);
   background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  border: none;
   border-radius: 4px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  font-family: inherit;
-  transition: var(--transition-background-color), var(--transition-box-shadow);
+  transition: var(--transition-background-color);
 }
 
 .online-button:hover,
 .online-button:focus {
   background-color: var(--button-color-accent);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   outline: transparent;
 }

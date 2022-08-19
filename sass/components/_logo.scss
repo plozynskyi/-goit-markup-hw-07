@@ -10,7 +10,20 @@
 }
 
 .logo-colorized {
+  padding: 24px 0 25px 0;
   color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  transition: var(--transition-color);
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: var(--white-text-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -23,7 +36,7 @@
 .logo-header:focus .logo-colorized,
 .logo-footer:hover .logo-colorized,
 .logo-footer:focus .logo-colorized {
-  color: var(--logo-accent-color-tomato);
+  color: var(--logo-accent-color);
   outline: transparent;
 }
 
@@ -31,19 +44,6 @@
 .logo-header:focus,
 .logo-footer:hover,
 .logo-footer:focus {
-  color: var(--logo-accent-color-tomato);
+  color: var(--logo-accent-color);
   outline: transparent;
-}
-
-.logo-footer {
-  display: inline-block;
-  margin-bottom: 20px;
-  color: var(--white-text-color);
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  outline: transparent;
-  transition: var(--transition-color);
 }
