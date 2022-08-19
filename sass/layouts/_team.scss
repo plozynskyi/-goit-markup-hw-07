@@ -50,35 +50,4 @@
   letter-spacing: 0.03em;
 }
 
-.social-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-}
 
-.social-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border: 0;
-  border-radius: 50%;
-  color: var(--social-link-color);
-  background-color: var(--page-bg-color);
-  transition: var(--transition-color), var(--transition-background-color);
-}
-
-.social-logo {
-  display: block;
-  fill: currentcolor;
-}
-
-.social-link:hover,
-.social-link:focus {
-  color: var(--button-color);
-  background-color: var(--accent-color);
-  outline: transparent;
-}
