@@ -32,20 +32,18 @@
   border: 1px solid var(--social-link-color);
   border-radius: 4px;
   transition: var(--transition-border), var(--transition-color);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+  }
 }
 
 .link-client-logo {
   fill: currentColor;
   transition: var(--transition-fill);
-}
-
-.clients-list-item:hover .link-client-logo,
-.clients-list-item:focus .link-client-logo {
-  fill: var(--accent-color);
-}
-
-.clients-list-link:hover,
-.clients-list-link:focus {
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
+  .clients-list-item:hover &,
+  .clients-list-item:focus & {
+    fill: var(--accent-color);
+  }
 }

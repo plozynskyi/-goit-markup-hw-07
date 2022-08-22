@@ -18,12 +18,11 @@
   line-height: 1.88;
   letter-spacing: 0.06em;
   transition: var(--transition-background-color);
-}
-
-.section-hero-button:hover,
-.section-hero-button:focus {
-  background-color: var(--button-color-accent);
-  outline: transparent;
+  &:hover,
+  &:focus {
+    background-color: var(--button-color-accent);
+    outline: transparent;
+  }
 }
 
 .modal-button {
@@ -46,12 +45,11 @@
   line-height: 1.88;
   letter-spacing: 0.06em;
   transition: var(--transition-background-color);
-}
-
-.modal-button:hover,
-.modal-button:focus {
-  background-color: var(--button-color-accent);
-  outline: transparent;
+  &:hover,
+  &:focus {
+    background-color: var(--button-color-accent);
+    outline: transparent;
+  }
 }
 
 .online-button {
@@ -74,10 +72,9 @@
   line-height: 1.88;
   letter-spacing: 0.06em;
   transition: var(--transition-background-color);
-}
-
-.online-button:hover,
-.online-button:focus {
-  background-color: var(--button-color-accent);
-  outline: transparent;
+  &:hover,
+  &:focus {
+    background-color: var(--button-color-accent);
+    outline: transparent;
+  }
 }

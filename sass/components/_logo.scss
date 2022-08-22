@@ -7,6 +7,11 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   transition: var(--transition-color);
+  &:hover,
+  &:focus {
+    color: var(--logo-accent-color);
+    outline: transparent;
+  }
 }
 
 .logo-colorized {
@@ -18,6 +23,13 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   transition: var(--transition-color);
+  .logo-header:hover &,
+  .logo-header:focus &,
+  .logo-footer:hover &,
+  .logo-footer:focus & {
+    color: var(--logo-accent-color);
+    outline: transparent;
+  }
 }
 
 .logo-footer {
@@ -30,20 +42,9 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   transition: var(--transition-color);
-}
-
-.logo-header:hover .logo-colorized,
-.logo-header:focus .logo-colorized,
-.logo-footer:hover .logo-colorized,
-.logo-footer:focus .logo-colorized {
-  color: var(--logo-accent-color);
-  outline: transparent;
-}
-
-.logo-header:hover,
-.logo-header:focus,
-.logo-footer:hover,
-.logo-footer:focus {
-  color: var(--logo-accent-color);
-  outline: transparent;
+  &:hover,
+  &:focus {
+    color: var(--logo-accent-color);
+    outline: transparent;
+  }
 }

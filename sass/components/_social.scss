@@ -21,6 +21,12 @@
   transition: var(--transition-color), var(--transition-background-color);
   color: var(--social-link-color);
   background-color: var(--page-bg-color);
+  &:hover,
+  &:focus {
+    color: var(--button-color);
+    background-color: var(--accent-color);
+    outline: transparent;
+  }
 }
 
 .footer-social-link {
@@ -34,22 +40,14 @@
   transition: var(--transition-color), var(--transition-background-color);
   color: var(--button-color);
   background-color: var(--social-link-bg-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    outline: transparent;
+  }
 }
 
 .social-logo {
   display: block;
   fill: currentcolor;
-}
-
-.social-link:hover,
-.social-link:focus {
-  color: var(--button-color);
-  background-color: var(--accent-color);
-  outline: transparent;
-}
-
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: var(--accent-color);
-  outline: transparent;
 }
