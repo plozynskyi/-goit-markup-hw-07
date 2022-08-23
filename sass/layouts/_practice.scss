@@ -1,10 +1,20 @@
-.section-practice-list {
+.practice-title {
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.practice-list {
   display: flex;
   flex-wrap: wrap;
   gap: var(--gap-size);
 }
 
-.section-practice-item {
+.practice-item {
   flex-basis: calc((100% - var(--gap-size) * 2) / 3);
   position: relative;
   &::before {
@@ -26,17 +36,7 @@
   transform: translate(-50%);
 }
 
-.section-practice-title {
-  text-align: center;
-  margin-bottom: 50px;
-  color: var(--primary-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
-.section-practice-text {
+.practice-text {
   text-align: center;
   color: var(--white-text-color);
   font-weight: 700;

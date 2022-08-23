@@ -1,4 +1,4 @@
-.section-clients-title {
+.clients-title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -8,7 +8,7 @@
   color: var(--primary-text-color);
 }
 
-.section-clients-list {
+.clients-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -39,7 +39,7 @@
   }
 }
 
-.link-client-logo {
+.client-link-logo {
   fill: currentColor;
   transition: var(--transition-fill);
   .clients-list-item:hover &,
