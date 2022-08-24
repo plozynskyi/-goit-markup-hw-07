@@ -5,7 +5,7 @@ html {
 body {
   background-color: var(--page-bg-color);
   color: var(--primary-text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-font);
 }
 
 .list {

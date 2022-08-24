@@ -25,7 +25,6 @@
 }
 
 .feature__text {
-  display: block;
   min-width: 270px;
   @include font(null, 14, 1.14, 0.03);
   color: var(--secondery-text-color);

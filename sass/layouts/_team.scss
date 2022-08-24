@@ -2,6 +2,10 @@
   background-color: var(--team-bg-color);
 }
 
+.team__title--bottem {
+  margin-bottom: 50px;
+}
+
 .team__list {
   display: flex;
   flex-wrap: wrap;
@@ -22,7 +26,7 @@
   padding-bottom: 30px;
 }
 
-.team__title {
+.team__employee {
   margin-bottom: 10px;
   text-align: center;
   @include font(500, 16, 1.19, 0.03);

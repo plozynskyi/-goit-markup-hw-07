@@ -26,24 +26,10 @@
 }
 
 .footer__social-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border: 0;
-  border-radius: 50%;
-  transition: var(--transition-color), var(--transition-background-color);
   color: var(--button-color);
   background-color: var(--social-link-bg-color);
-  &:hover,
-  &:focus {
-    background-color: var(--accent-color);
-    outline: transparent;
-  }
 }
 
 .social__logo {
-  display: block;
   fill: currentcolor;
 }

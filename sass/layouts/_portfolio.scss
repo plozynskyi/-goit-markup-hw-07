@@ -27,7 +27,6 @@
 }
 
 .cards__info {
-  display: block;
   padding: 20px 24px;
   border-width: 0 1px 1px;
   border-style: solid;
@@ -41,7 +40,6 @@
 }
 
 .cards__text {
-  display: block;
   @include font(null, 16, 1.88, 0.03);
   color: var(--secondery-text-color);
 }

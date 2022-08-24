@@ -1,8 +1,5 @@
-.clients__title {
-  text-align: center;
+.clients__title--bottom {
   margin-bottom: 50px;
-  @include font(700, 36, 1.66, 0.03);
-  color: var(--primary-text-color);
 }
 
 .company {
