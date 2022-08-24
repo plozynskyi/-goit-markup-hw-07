@@ -1,26 +1,23 @@
-.clients-title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.66;
+.clients__title {
   text-align: center;
-  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  @include font(700, 36, 1.66, 0.03);
   color: var(--primary-text-color);
 }
 
-.clients-list {
+.company {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: var(--gap-size);
 }
 
-.clients-list-item {
+.company__item {
   margin: 0;
   flex-basis: calc((100% - var(--gap-size) * 3) / 4);
   max-width: 170px;
 }
-.clients-list-link {
+.company__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +36,7 @@
   }
 }
 
-.client-link-logo {
+.company__logo {
   fill: currentColor;
   transition: var(--transition-fill);
   .clients-list-item:hover &,
